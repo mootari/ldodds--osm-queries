@@ -47,7 +47,7 @@ way(area);
 ```
 
 The `area` filter restricts the ways (or nodes, or relations) we're interested in
-to just those that within an area we've already found. This type of spatial query
+to just those within an area we've already found. This type of spatial query
 isn't normally available for ways and relations. I presume this is to limit the amount
 of indexing required to support this type of query.
 
@@ -55,7 +55,7 @@ The `area` query and the `area` filter both work with named sets. By default the
 with the default set (`_`). And this is what the example query uses.
 
 But an alternate way to write this example is to explicitly store the area we're
-interested in a named set. I find this a bit clearer in practice.
+interested in in a named set. I find this a bit clearer in practice.
 
 Here's how this would look, using a named set called `ourArea`:
 
