@@ -3,8 +3,8 @@ OverpassQL supports searching for features within a polygon defined by a collect
 points.
 
 The `poly` filter accepts a single parameter. This must be a string value that
-contains an even number of latitude and longitude pairs. Collectively these
-coordinates should define a closed shape on the map.
+contains latitude and longitude pairs. Collectively these coordinates should define a
+closed shape on the map.
 
 This polygon is then used as the boundary for the query.
 
