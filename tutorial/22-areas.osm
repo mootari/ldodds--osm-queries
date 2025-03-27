@@ -60,7 +60,7 @@ interested in in a named set. I find this a bit clearer in practice.
 Here's how this would look, using a named set called `ourArea`:
 
 ```
-area["name"="Uluru-Kata Tjuta National Park"]->.ourArea;
+area["name"="Uluṟu-Kata Tjuṯa National Park"]->.ourArea;
 (
  way(area.ourArea)["natural"="bare_rock"];
  >;
