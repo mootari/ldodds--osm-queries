@@ -44,7 +44,7 @@ node;
 
 //...and output data about those nodes
 
-//Outputing ids only means Overpass Turbo can't draw you a map,
+//Outputting ids only means Overpass Turbo can't draw you a map,
 //you'll just get some XML output
 out ids;
 
