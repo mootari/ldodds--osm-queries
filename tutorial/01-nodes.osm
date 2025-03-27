@@ -29,12 +29,12 @@ If you define a bounding box using a fixed set of points, then the query will
 only ever use that geographic area. But sometimes you want to run a query over
 whatever section of the map you're currently looking at.
 
-The Overpass Turbo IDE provides a third way to define a bounding box. But automatically
+The Overpass Turbo IDE provides a third way to define a bounding box, by automatically
 inserting the coordinates for the current map view into your query.
 This is specified by including the "`{{box}}`" shortcut instead of the coordinates. Overpass Turbo will then adjust
 your query before its run.
 
-This won't happen if you submit a query directly to the API. Its only a feature of the IDE. But
+This won't happen if you submit a query directly to the API. It's only a feature of the IDE. But
 helpful when you're writing queries interactively.
 
 When should you use the different variations?
