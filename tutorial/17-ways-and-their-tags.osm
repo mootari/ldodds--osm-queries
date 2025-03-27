@@ -6,7 +6,7 @@ That includes filtering them based on their tags. Or using them to search
 nearby on the map.
 
 The query below selects just those ways in our bounding box that have been
-tagged as a tourist attraction. As the time of writing, that results in a
+tagged as a tourist attraction. At the time of writing, that results in a
 single way which marks out the boundary of Uluṟu.
 
 See the query comments for other variations to try, including finding
