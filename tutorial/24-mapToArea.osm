@@ -16,7 +16,7 @@ that is found just east of Uluṟu. This is stored in a temporary named set.
 We then use the `map_to_area` statement to find the area corresponding to
 that relation. This is saved in a variable called `mutitjulu`.
 
-We then do a couple of type agnostic queries to find node, ways and relations
+We then do a couple of type agnostic queries to find nodes, ways and relations
 that are tagged as buildings or leisure areas.
 
 @title 24 - Find the area derived from a feature
