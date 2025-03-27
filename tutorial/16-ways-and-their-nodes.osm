@@ -5,7 +5,7 @@ their outline.
 In OverpassQL we do this using the "recurse down" statement "`>`".
 
 This statement takes an input set of elements and then finds any
-node (or way, or relation) that are a member of those elements.
+node (or way, or relation) that is a member of those elements.
 
 The members of a way are its nodes.
 
