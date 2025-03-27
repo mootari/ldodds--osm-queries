@@ -22,7 +22,7 @@ and produce output from multiple named sets of results.
 */
 [bbox:-25.38653, 130.99883, -25.31478, 131.08938];
 
-//find nodes within out bounding box that have a name
+//find nodes within our bounding box that have a name
 //and write the result to the default set
 node["name"]->._;
 
